@@ -707,7 +707,7 @@ var Select = React.createClass({
 
 		var value = [];
 
-		if (this.props.multi) {
+		if (this.props.renderFlag) {
 			this.state.values.forEach(function(val) {
 				value.push(<Value
 					key={val.value}
